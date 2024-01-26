@@ -7,7 +7,6 @@ public abstract class Person implements Payable, Comparable<Person> {
     public int getId() {
         return id;
     }
-
     public Person(){
         this.id = id_gen++;
     }
