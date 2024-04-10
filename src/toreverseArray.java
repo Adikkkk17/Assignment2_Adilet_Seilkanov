@@ -12,8 +12,8 @@ public class toreverseArray
     public static void toreverseArray(Scanner scannedarray, int n) {
         if (n > 0) {
             int num = scannedarray.nextInt();
-            toreverseArray (scannedarray, n - 1);
-            System.out.print(num + " ");
+            toreverseArray(scannedarray, n - 1);
+            System.out.print(num +" ");
         }
         else{
             return;
